@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Steganography</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Image Steganography</h2>
+
+    <h3>Encrypt Message</h3>
+    <form id="encryptForm">
+        <input type="file" id="encryptImage" required>
+        <input type="text" id="message" placeholder="Enter message" required>
+        <input type="password" id="encryptPassword" placeholder="Enter password" required>
+        <button type="submit">Encrypt</button>
+    </form>
+
+    <h3>Decrypt Message</h3>
+    <form id="decryptForm">
+        <input type="file" id="decryptImage" required>
+        <input type="password" id="decryptPassword" placeholder="Enter password" required>
+        <button type="submit">Decrypt</button>
+    </form>
+
+    <p id="decryptedMessage"></p>
+
+    <script src="/static/script.js">
+        
+    </script>
+</body>
+</html> 
