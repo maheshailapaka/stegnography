@@ -9,7 +9,7 @@ This project aims to securely hide messages inside images using steganography an
 - Python (Flask)
 - JavaScript (Fetch API, jQuery)
 - HTML, CSS (Frontend UI)
-- OpenCV, PIL (Image Processing)
+- OpenCV (Image Processing)
 - Cryptography Libraries (AES Encryption)
 
 ## ✨ Wow Factor
